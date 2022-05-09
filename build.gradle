@@ -19,12 +19,6 @@ dependencies {
 	}
 }
 
-node {
-  withGradle {
-    sh './gradlew build'
-  }
-}
-
 test {
 	useJUnitPlatform()
 }
